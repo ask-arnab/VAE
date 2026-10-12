@@ -95,7 +95,7 @@ def loss_fn(x, x_hat, mean, logvar):
 # Training Loop
 # -----------------------------
 history = []
-epochs = 5
+epochs = 10
 for epoch in range(epochs):
     total_loss = 0
     for batch in dl:
